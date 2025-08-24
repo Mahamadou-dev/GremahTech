@@ -1,0 +1,95 @@
+{
+  "navigation": {
+    "home": "Gida",
+    "about": "Game da mu",
+    "services": "Ayyuka",
+    "team": "Ƙungiya",
+    "contact": "Tuntuɓa"
+  },
+  "hero": {
+    "title": "Sabbin Hanyoyin IT",
+    "subtitle": "a Zinder",
+    "description": "Kamfanin IT na gaba wanda ke ba da sabbin hanyoyin gina yanar gizo, tsaro, da hanyoyin sadarwa don canza kasancewar ku na dijital.",
+    "cta": "Fara",
+    "learnMore": "Koyi Ƙara"
+  },
+  "about": {
+    "title": "Game da GremahTech",
+    "subtitle": "Sabuntawa ta Haɗu da Kyau",
+    "description": "An kafa shi a Zinder, GremahTech kamfani ne na IT mai ƙarfi wanda ya sadaukar da kansa don ba da hanyoyin fasaha na duniya. Muna haɗa ƙwarewar gida da ƙa'idodin duniya don taimaka wa kasuwanci su ci gaba a zamanin dijital.",
+    "mission": "Manufarmu",
+    "missionText": "Don ƙarfafa kasuwanci a Niger da kuma sauran wurare da sabbin hanyoyin IT waɗanda ke haifar da ci gaba da canjin dijital.",
+    "vision": "Hangen Nesanmu",
+    "visionText": "Don zama babban mai ba da hanyoyin IT a Yammacin Afirka, wanda aka sani da kyau, sabuntawa, da gamsuwar abokin ciniki."
+  },
+  "services": {
+    "title": "Ayyukanmu",
+    "subtitle": "Cikakkun Hanyoyin IT",
+    "webDev": {
+      "title": "Gina Yanar Gizo",
+      "description": "Gidajen yanar gizo na musamman da aikace-aikacen yanar gizo da aka gina da sabbin fasahohi da ƙirar da ta dace."
+    },
+    "itSupport": {
+      "title": "Tallafin IT",
+      "description": "Taimako na fasaha 24/7 da kulawa don kiyaye tsarin ku yana aiki lafiya."
+    },
+    "networking": {
+      "title": "Hanyoyin Sadarwa",
+      "description": "Saitin hanyar sadarwa ta ƙwararru, daidaitawa, da ingantawa ga kasuwanci na kowane girma."
+    },
+    "cybersecurity": {
+      "title": "Tsaron Yanar Gizo",
+      "description": "Cikakkun hanyoyin tsaro don kare kadarorin ku na dijital da bayanan sirri."
+    }
+  },
+  "team": {
+    "title": "Ƙungiyarmu",
+    "subtitle": "Ku Haɗu da Ƙwararru",
+    "ceo": {
+      "name": "Mahamadou Amadou Habou Gremah",
+      "role": "Shugaba kuma Wanda Ya Kafa",
+      "description": "Jagora mai hangen nesa tare da ƙwarewa a dabarun IT da ci gaban kasuwanci."
+    },
+    "cto": {
+      "name": "Jagoran Fasaha",
+      "role": "Babban Jami'in Fasaha",
+      "description": "Ƙwararren fasaha wanda ke jagorantar sabuntawa da kuma kula da duk ayyukan ci gaba."
+    },
+    "developer": {
+      "name": "Babban Mai Gina",
+      "role": "Mai Gina Full Stack",
+      "description": "Mai gina mai gogewa wanda ya ƙware a sabbin fasahohin yanar gizo da mafita."
+    },
+    "security": {
+      "name": "Ƙwararren Tsaro",
+      "role": "Ƙwararren Tsaron Yanar Gizo",
+      "description": "Ya sadaukar da kansa don kare tsarin dijital da bayanan abokan cinikinmu."
+    }
+  },
+  "contact": {
+    "title": "Tuntuɓe Mu",
+    "subtitle": "Mu Gina Wani Abu Mai Ban Mamaki Tare",
+    "name": "Suna",
+    "email": "Imel",
+    "message": "Saƙo",
+    "send": "Aika Saƙo",
+    "info": {
+      "address": "Zinder, Niger",
+      "phone": "+227 XX XX XX XX",
+      "email": "contact@gremahtech.com"
+    }
+  },
+  "footer": {
+    "description": "Kamfanin IT na gaba a Zinder wanda ke ba da sabbin hanyoyin fasaha.",
+    "quickLinks": "Hanyoyin Sauri",
+    "services": "Ayyuka",
+    "contact": "Bayanan Tuntuɓa",
+    "rights": "Duk haƙƙoƙi an kebe su."
+  },
+  "language": {
+    "switch": "Canja Harshe",
+    "english": "English",
+    "french": "Français",
+    "hausa": "Hausa"
+  }
+}

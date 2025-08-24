@@ -3,9 +3,11 @@
 import { useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Sparkles } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 export function HeroSection() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
+  const t = useTranslations("hero")
 
   useEffect(() => {
     const canvas = canvasRef.current
@@ -127,14 +129,13 @@ export function HeroSection() {
           </div>
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold font-display mb-6 leading-tight">
-            <span className="text-gradient">GremahTech</span>
+            <span className="text-gradient">{t("title")}</span>
             <br />
-            <span className="text-foreground">Shaping the Future</span>
+            <span className="text-foreground">{t("subtitle")}</span>
           </h1>
 
           <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Leading IT startup in Zinder, delivering cutting-edge web development, cybersecurity, networking solutions,
-            and comprehensive IT assistance.
+            {t("description")}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -142,7 +143,7 @@ export function HeroSection() {
               size="lg"
               className="bg-gradient-gemini hover:opacity-90 transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
-              Get Started
+              {t("cta")}
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
             <Button
@@ -150,7 +151,7 @@ export function HeroSection() {
               size="lg"
               className="border-primary/50 hover:bg-primary/10 transition-all duration-300 bg-transparent"
             >
-              Learn More
+              {t("learnMore")}
             </Button>
           </div>
         </div>

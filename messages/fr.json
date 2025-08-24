@@ -1,0 +1,95 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "team": "Équipe",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Solutions IT Innovantes",
+    "subtitle": "à Zinder",
+    "description": "Startup IT leader fournissant des solutions de développement web, cybersécurité et réseaux de pointe pour transformer votre présence numérique.",
+    "cta": "Commencer",
+    "learnMore": "En savoir plus"
+  },
+  "about": {
+    "title": "À propos de GremahTech",
+    "subtitle": "L'Innovation Rencontre l'Excellence",
+    "description": "Fondée à Zinder, GremahTech est une startup IT dynamique dédiée à fournir des solutions technologiques de classe mondiale. Nous combinons l'expertise locale avec les standards globaux pour aider les entreprises à prospérer à l'ère numérique.",
+    "mission": "Notre Mission",
+    "missionText": "Autonomiser les entreprises au Niger et au-delà avec des solutions IT innovantes qui stimulent la croissance et la transformation numérique.",
+    "vision": "Notre Vision",
+    "visionText": "Devenir le fournisseur de solutions IT leader en Afrique de l'Ouest, reconnu pour l'excellence, l'innovation et la satisfaction client."
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Solutions IT Complètes",
+    "webDev": {
+      "title": "Développement Web",
+      "description": "Sites web personnalisés et applications web construits avec des technologies modernes et un design responsive."
+    },
+    "itSupport": {
+      "title": "Support IT",
+      "description": "Assistance technique 24/7 et maintenance pour maintenir vos systèmes en fonctionnement optimal."
+    },
+    "networking": {
+      "title": "Réseaux",
+      "description": "Configuration, installation et optimisation de réseaux professionnels pour entreprises de toutes tailles."
+    },
+    "cybersecurity": {
+      "title": "Cybersécurité",
+      "description": "Solutions de sécurité complètes pour protéger vos actifs numériques et données sensibles."
+    }
+  },
+  "team": {
+    "title": "Notre Équipe",
+    "subtitle": "Rencontrez les Experts",
+    "ceo": {
+      "name": "Mahamadou Amadou Habou Gremah",
+      "role": "PDG et Fondateur",
+      "description": "Leader visionnaire avec une expertise en stratégie IT et développement commercial."
+    },
+    "cto": {
+      "name": "Responsable Technique",
+      "role": "Directeur Technique",
+      "description": "Expert technique dirigeant l'innovation et supervisant tous les projets de développement."
+    },
+    "developer": {
+      "name": "Développeur Senior",
+      "role": "Développeur Full Stack",
+      "description": "Développeur expérimenté spécialisé dans les technologies web modernes et solutions."
+    },
+    "security": {
+      "name": "Spécialiste Sécurité",
+      "role": "Expert Cybersécurité",
+      "description": "Dédié à la protection de l'infrastructure numérique et des données de nos clients."
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Construisons Quelque Chose d'Extraordinaire Ensemble",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer le Message",
+    "info": {
+      "address": "Zinder, Niger",
+      "phone": "+227 XX XX XX XX",
+      "email": "contact@gremahtech.com"
+    }
+  },
+  "footer": {
+    "description": "Startup IT leader à Zinder fournissant des solutions technologiques innovantes.",
+    "quickLinks": "Liens Rapides",
+    "services": "Services",
+    "contact": "Informations de Contact",
+    "rights": "Tous droits réservés."
+  },
+  "language": {
+    "switch": "Changer de Langue",
+    "english": "English",
+    "french": "Français",
+    "hausa": "Hausa"
+  }
+}

@@ -4,9 +4,11 @@ import { useEffect, useRef } from "react"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Code, HelpCircle, Network, Shield, ArrowRight } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 export function ServicesSection() {
   const sectionRef = useRef<HTMLElement>(null)
+  const t = useTranslations("services")
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -29,32 +31,29 @@ export function ServicesSection() {
   const services = [
     {
       icon: Code,
-      title: "Web Development",
-      description:
-        "Custom websites and web applications built with modern technologies like React, Next.js, and Node.js.",
+      title: t("webDev.title"),
+      description: t("webDev.description"),
       features: ["Responsive Design", "E-commerce Solutions", "CMS Development", "API Integration"],
       color: "from-blue-500 to-cyan-500",
     },
     {
       icon: HelpCircle,
-      title: "IT Assistance",
-      description: "Comprehensive IT support and consultation services to keep your business running smoothly.",
+      title: t("itSupport.title"),
+      description: t("itSupport.description"),
       features: ["Technical Support", "System Maintenance", "Software Installation", "Training & Consultation"],
       color: "from-purple-500 to-pink-500",
     },
     {
       icon: Network,
-      title: "Networking",
-      description:
-        "Professional network setup, configuration, and maintenance for optimal connectivity and performance.",
+      title: t("networking.title"),
+      description: t("networking.description"),
       features: ["Network Design", "Infrastructure Setup", "Wireless Solutions", "Performance Optimization"],
       color: "from-green-500 to-teal-500",
     },
     {
       icon: Shield,
-      title: "Cybersecurity",
-      description:
-        "Protect your digital assets with our comprehensive cybersecurity solutions and monitoring services.",
+      title: t("cybersecurity.title"),
+      description: t("cybersecurity.description"),
       features: ["Security Audits", "Threat Detection", "Data Protection", "Compliance Solutions"],
       color: "from-red-500 to-orange-500",
     },
@@ -71,12 +70,9 @@ export function ServicesSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16 animate-on-scroll">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display mb-6">
-            Our <span className="text-gradient">Services</span>
+            {t("title")} <span className="text-gradient">Services</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            We offer a comprehensive range of IT services designed to meet the evolving needs of modern businesses in
-            the digital age.
-          </p>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">{t("subtitle")}</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">

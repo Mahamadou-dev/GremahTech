@@ -1,9 +1,12 @@
 "use client"
 
 import { Github, Linkedin, Twitter, Mail, Phone, MapPin } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
+  const t = useTranslations("footer")
+  const tNav = useTranslations("navigation")
 
   const socialLinks = [
     { icon: Github, href: "#", label: "GitHub" },
@@ -12,10 +15,10 @@ export function Footer() {
   ]
 
   const quickLinks = [
-    { label: "About Us", href: "#about" },
-    { label: "Services", href: "#services" },
-    { label: "Team", href: "#team" },
-    { label: "Contact", href: "#contact" },
+    { label: tNav("about"), href: "#about" },
+    { label: tNav("services"), href: "#services" },
+    { label: tNav("team"), href: "#team" },
+    { label: tNav("contact"), href: "#contact" },
   ]
 
   const services = [
@@ -40,10 +43,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <div className="mb-6">
               <h3 className="text-2xl font-bold font-display text-gradient mb-4">GremahTech</h3>
-              <p className="text-muted-foreground leading-relaxed max-w-md">
-                Leading IT startup in Zinder, delivering innovative technology solutions that empower businesses to
-                thrive in the digital age.
-              </p>
+              <p className="text-muted-foreground leading-relaxed max-w-md">{t("description")}</p>
             </div>
 
             {/* Contact Info */}
@@ -79,7 +79,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold font-display mb-4">Quick Links</h4>
+            <h4 className="font-semibold font-display mb-4">{t("quickLinks")}</h4>
             <ul className="space-y-2">
               {quickLinks.map((link, index) => (
                 <li key={index}>
@@ -96,7 +96,7 @@ export function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="font-semibold font-display mb-4">Services</h4>
+            <h4 className="font-semibold font-display mb-4">{t("services")}</h4>
             <ul className="space-y-2">
               {services.map((service, index) => (
                 <li key={index}>
@@ -116,7 +116,7 @@ export function Footer() {
         <div className="py-6 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-              © {currentYear} GremahTech. All rights reserved.
+              © {currentYear} GremahTech. {t("rights")}
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-muted-foreground hover:text-foreground transition-colors duration-200">

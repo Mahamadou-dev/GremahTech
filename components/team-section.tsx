@@ -3,9 +3,11 @@
 import { useEffect, useRef } from "react"
 import { Card } from "@/components/ui/card"
 import { Github, Linkedin, Twitter } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 export function TeamSection() {
   const sectionRef = useRef<HTMLElement>(null)
+  const t = useTranslations("team")
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -27,10 +29,10 @@ export function TeamSection() {
 
   const team = [
     {
-      name: "Ahmed Gremah",
-      role: "CEO & Founder",
+      name: t("ceo.name"),
+      role: t("ceo.role"),
       image: "/african-tech-ceo.png",
-      bio: "Visionary leader with 8+ years in technology and business development.",
+      bio: t("ceo.description"),
       social: {
         linkedin: "#",
         twitter: "#",
@@ -38,10 +40,10 @@ export function TeamSection() {
       },
     },
     {
-      name: "Fatima Moussa",
-      role: "CTO & Lead Developer",
+      name: t("cto.name"),
+      role: t("cto.role"),
       image: "/african-female-tech-lead.png",
-      bio: "Full-stack developer specializing in modern web technologies and cloud solutions.",
+      bio: t("cto.description"),
       social: {
         linkedin: "#",
         twitter: "#",
@@ -49,10 +51,10 @@ export function TeamSection() {
       },
     },
     {
-      name: "Ibrahim Hassan",
-      role: "Cybersecurity Specialist",
+      name: t("developer.name"),
+      role: t("developer.role"),
       image: "/african-cybersecurity-expert.png",
-      bio: "Cybersecurity expert focused on protecting businesses from digital threats.",
+      bio: t("developer.description"),
       social: {
         linkedin: "#",
         twitter: "#",
@@ -60,10 +62,10 @@ export function TeamSection() {
       },
     },
     {
-      name: "Aisha Abdou",
-      role: "Network Engineer",
-      image: "/placeholder-ufiiy.png",
-      bio: "Network infrastructure specialist with expertise in enterprise solutions.",
+      name: t("security.name"),
+      role: t("security.role"),
+      image: "/african-network-engineer.png",
+      bio: t("security.description"),
       social: {
         linkedin: "#",
         twitter: "#",
@@ -83,12 +85,9 @@ export function TeamSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16 animate-on-scroll">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display mb-6">
-            Meet Our <span className="text-gradient">Team</span>
+            {t("title")} <span className="text-gradient">Team</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Our diverse team of technology experts is passionate about delivering innovative solutions and exceptional
-            service to our clients.
-          </p>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">{t("subtitle")}</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

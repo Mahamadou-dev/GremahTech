@@ -1,10 +1,12 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter, Space_Grotesk } from "next/font/google"
-import "./globals.css"
+import "../globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { NextIntlClientProvider } from "next-intl"
 import { getMessages } from "next-intl/server"
+import { notFound } from "next/navigation"
+import { locales } from "@/i18n"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -35,13 +37,19 @@ export const metadata: Metadata = {
   generator: "v0.app",
 }
 
-export default async function RootLayout({
+export default async function LocaleLayout({
   children,
   params: { locale },
 }: Readonly<{
   children: React.ReactNode
   params: { locale: string }
 }>) {
+  // Validate that the incoming `locale` parameter is valid
+  if (!locales.includes(locale as any)) {
+    notFound()
+  }
+
+  // Providing all messages to the client side is the easiest way to get started
   const messages = await getMessages()
 
   return (

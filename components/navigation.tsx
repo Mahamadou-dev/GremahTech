@@ -3,11 +3,14 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme-toggle"
+import { LanguageSwitcher } from "@/components/language-switcher"
 import { Menu, X } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const t = useTranslations("navigation")
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,11 +21,11 @@ export function Navigation() {
   }, [])
 
   const navItems = [
-    { href: "#home", label: "Home" },
-    { href: "#about", label: "About" },
-    { href: "#services", label: "Services" },
-    { href: "#team", label: "Team" },
-    { href: "#contact", label: "Contact" },
+    { href: "#home", label: t("home") },
+    { href: "#about", label: t("about") },
+    { href: "#services", label: t("services") },
+    { href: "#team", label: t("team") },
+    { href: "#contact", label: t("contact") },
   ]
 
   return (
@@ -55,8 +58,9 @@ export function Navigation() {
             </div>
           </div>
 
-          {/* Theme Toggle & Mobile Menu Button */}
-          <div className="flex items-center space-x-4">
+          {/* Theme Toggle, Language Switcher & Mobile Menu Button */}
+          <div className="flex items-center space-x-2">
+            <LanguageSwitcher />
             <ThemeToggle />
             <div className="md:hidden">
               <Button variant="ghost" size="sm" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>

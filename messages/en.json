@@ -1,0 +1,95 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "team": "Team",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Innovative IT Solutions",
+    "subtitle": "in Zinder",
+    "description": "Leading IT startup providing cutting-edge web development, cybersecurity, and networking solutions to transform your digital presence.",
+    "cta": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "title": "About GremahTech",
+    "subtitle": "Innovation Meets Excellence",
+    "description": "Founded in Zinder, GremahTech is a dynamic IT startup dedicated to delivering world-class technology solutions. We combine local expertise with global standards to help businesses thrive in the digital age.",
+    "mission": "Our Mission",
+    "missionText": "To empower businesses in Niger and beyond with innovative IT solutions that drive growth and digital transformation.",
+    "vision": "Our Vision",
+    "visionText": "To become the leading IT solutions provider in West Africa, known for excellence, innovation, and customer satisfaction."
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive IT Solutions",
+    "webDev": {
+      "title": "Web Development",
+      "description": "Custom websites and web applications built with modern technologies and responsive design."
+    },
+    "itSupport": {
+      "title": "IT Support",
+      "description": "24/7 technical assistance and maintenance to keep your systems running smoothly."
+    },
+    "networking": {
+      "title": "Networking",
+      "description": "Professional network setup, configuration, and optimization for businesses of all sizes."
+    },
+    "cybersecurity": {
+      "title": "Cybersecurity",
+      "description": "Comprehensive security solutions to protect your digital assets and sensitive data."
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet the Experts",
+    "ceo": {
+      "name": "Mahamadou Amadou Habou Gremah",
+      "role": "CEO & Founder",
+      "description": "Visionary leader with expertise in IT strategy and business development."
+    },
+    "cto": {
+      "name": "Tech Lead",
+      "role": "Chief Technology Officer",
+      "description": "Technical expert driving innovation and overseeing all development projects."
+    },
+    "developer": {
+      "name": "Senior Developer",
+      "role": "Full Stack Developer",
+      "description": "Experienced developer specializing in modern web technologies and solutions."
+    },
+    "security": {
+      "name": "Security Specialist",
+      "role": "Cybersecurity Expert",
+      "description": "Dedicated to protecting our clients' digital infrastructure and data."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Let's Build Something Amazing Together",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "info": {
+      "address": "Zinder, Niger",
+      "phone": "+227 XX XX XX XX",
+      "email": "contact@gremahtech.com"
+    }
+  },
+  "footer": {
+    "description": "Leading IT startup in Zinder providing innovative technology solutions.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact Info",
+    "rights": "All rights reserved."
+  },
+  "language": {
+    "switch": "Switch Language",
+    "english": "English",
+    "french": "Français",
+    "hausa": "Hausa"
+  }
+}

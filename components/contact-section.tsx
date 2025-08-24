@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { MapPin, Phone, Mail, Clock } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
@@ -18,6 +19,7 @@ export function ContactSection() {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const sectionRef = useRef<HTMLElement>(null)
+  const t = useTranslations("contact")
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -63,19 +65,19 @@ export function ContactSection() {
     {
       icon: MapPin,
       title: "Address",
-      details: "Zinder, Niger",
+      details: t("info.address"),
       color: "from-blue-500 to-cyan-500",
     },
     {
       icon: Phone,
       title: "Phone",
-      details: "+227 XX XX XX XX",
+      details: t("info.phone"),
       color: "from-green-500 to-teal-500",
     },
     {
       icon: Mail,
       title: "Email",
-      details: "contact@gremahtech.com",
+      details: t("info.email"),
       color: "from-purple-500 to-pink-500",
     },
     {
@@ -97,12 +99,9 @@ export function ContactSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16 animate-on-scroll">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-display mb-6">
-            Get In <span className="text-gradient">Touch</span>
+            {t("title")} <span className="text-gradient">Touch</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Ready to start your next project? We'd love to hear from you. Send us a message and we'll respond as soon as
-            possible.
-          </p>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">{t("subtitle")}</p>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-12">
@@ -146,7 +145,7 @@ export function ContactSection() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium mb-2">
-                      Full Name *
+                      {t("name")} *
                     </label>
                     <Input
                       id="name"
@@ -161,7 +160,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium mb-2">
-                      Email Address *
+                      {t("email")} *
                     </label>
                     <Input
                       id="email"
@@ -194,7 +193,7 @@ export function ContactSection() {
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium mb-2">
-                    Message *
+                    {t("message")} *
                   </label>
                   <Textarea
                     id="message"
@@ -214,7 +213,7 @@ export function ContactSection() {
                   disabled={isSubmitting}
                   className="w-full bg-gradient-gemini hover:opacity-90 transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  {isSubmitting ? "Sending Message..." : "Send Message"}
+                  {isSubmitting ? "Sending Message..." : t("send")}
                 </Button>
               </form>
             </Card>
