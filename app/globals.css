@@ -280,11 +280,13 @@
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.125);
+  transform: translateZ(0); /* Ajoutez cette ligne */
 }
 
 .dark .glass {
   background-color: rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.1);
+  transform: translateZ(0); /* Et celle-ci pour le mode sombre */
 }
 
 /* Fade in up animation */
