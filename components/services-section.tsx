@@ -401,9 +401,9 @@ export function ServicesSection() {
             <p className="text-muted-foreground mb-6">
               {t("cta.description")}
             </p>
-            <Button size="lg" className="bg-gradient-gemini from-primary to-accent hover:from-primary/90 hover:to-accent/90">
+            <a href="#contact" ><Button size="lg"  className="bg-gradient-gemini from-primary to-accent hover:from-primary/90 hover:to-accent/90">
               {t("cta.button")}
-            </Button>
+            </Button></a>
           </Card>
         </motion.div>
       </div>

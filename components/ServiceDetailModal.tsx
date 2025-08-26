@@ -134,9 +134,9 @@ export function ServiceDetailModal({ service, onClose }: ServiceDetailModalProps
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="flex-1 bg-gradient-gemini from-primary to-accent">
+           <a href="#contact"><Button size="lg" className="flex-1 bg-gradient-gemini from-primary to-accent">
               {t("requestQuote")}
-            </Button>
+            </Button></a>
             <Button variant="outline" size="lg" className="flex-1" onClick={onClose}>
               {t("backToServices")}
             </Button>

@@ -26,6 +26,9 @@ export function Footer() {
     { label: "IT Assistance", href: "#services" },
     { label: "Networking", href: "#services" },
     { label: "Cybersecurity", href: "#services" },
+    { label: "Cloud Solutions", href: "#services" },
+    { label: "Consulting", href: "#services" },
+
   ]
 
   return (
@@ -54,11 +57,11 @@ export function Footer() {
               </div>
               <div className="flex items-center text-sm">
                 <Phone className="w-4 h-4 text-primary mr-3" />
-                <span>+227 XX XX XX XX</span>
+                <span>+227 88 77 80 95</span>
               </div>
               <div className="flex items-center text-sm">
                 <Mail className="w-4 h-4 text-primary mr-3" />
-                <span>contact@gremahtech.com</span>
+                <span>gremahtech@gmail.com</span>
               </div>
             </div>
 
