@@ -33,7 +33,7 @@ export function Navigation() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled ? "glass shadow-lg" : "bg-transparent"
-      }`}
+      } ${isMobileMenuOpen ? "glass" : "bg-transparent"}`} // Updated line
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex items-center justify-between h-16">
@@ -41,7 +41,7 @@ export function Navigation() {
           <div className="flex-shrink-0">
             {/*let's put an image logo here*/}
             <a href="#home" className="text-2xl font-bold font-display text-gradient">
-               <img src="/logo2.png" alt="GremahTech Logo" className="h-36 w-44" />
+                <img src="/logo2.png" alt="GremahTech Logo" className="h-36 w-44" />
             </a>
           </div>
 

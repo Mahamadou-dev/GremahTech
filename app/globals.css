@@ -276,8 +276,8 @@
 
 /* Glassmorphism effect */
 .glass {
-  backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
+  backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.125);
   transform: translateZ(0); /* Ajoutez cette ligne */
@@ -338,8 +338,8 @@
   );
   background-size: 200% 100%;
   animation: shimmer 3s infinite;
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
