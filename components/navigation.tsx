@@ -7,6 +7,7 @@ import { LanguageSwitcher } from "@/components/language-switcher"
 import { Menu, X } from "lucide-react"
 import { useTranslations } from "next-intl"
 
+
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -34,12 +35,13 @@ export function Navigation() {
         isScrolled ? "glass shadow-lg" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
+            {/*let's put an image logo here*/}
             <a href="#home" className="text-2xl font-bold font-display text-gradient">
-              GremahTech
+               <img src="/logo2.png" alt="GremahTech Logo" className="h-36 w-44" />
             </a>
           </div>
 

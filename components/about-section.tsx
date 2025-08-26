@@ -72,29 +72,29 @@ export function AboutSection() {
               <div className="w-16 h-16 bg-gradient-gemini rounded-full flex items-center justify-center mx-auto mb-6">
                 <Zap className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold font-display mb-4">Our Values</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Innovation, integrity, excellence, and customer-centricity guide everything we do as we build the future
-                of technology in Niger.
-              </p>
+              <h3 className="text-xl font-bold font-display mb-4">{t("values")}</h3>
+              <p className="text-muted-foreground leading-relaxed">{t("valuesText")}</p>
             </div>
           </Card>
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 animate-on-scroll">
-          {[
-            { number: "50+", label: "Projects Completed" },
-            { number: "25+", label: "Happy Clients" },
-            { number: "3+", label: "Years Experience" },
-            { number: "24/7", label: "Support Available" },
-          ].map((stat, index) => (
-            <div key={index} className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold font-display text-gradient mb-2">{stat.number}</div>
-              <div className="text-sm text-muted-foreground uppercase tracking-wider">{stat.label}</div>
-            </div>
-          ))}
-        </div>
+          {/* Stats */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            {[t("stat1"), t("stat2"), t("stat3")].map((stat, index) => (
+              <div 
+                key={index}
+                className="bg-background/50 backdrop-blur-md p-6 rounded-2xl border border-border/30 hover:border-primary/30 transition-all duration-500 hover:scale-105"
+              >
+                <div className="text-3xl font-bold text-primary mb-2">
+                  {stat.split('|')[0]}
+                </div>
+                <div className="text-muted-foreground text-sm uppercase tracking-wider">
+                  {stat.split('|')[1]}
+                </div>
+              </div>
+            ))}
+          </div>
       </div>
     </section>
   )

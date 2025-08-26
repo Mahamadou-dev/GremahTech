@@ -31,7 +31,7 @@ export function TeamSection() {
     {
       name: t("ceo.name"),
       role: t("ceo.role"),
-      image: "/african-tech-ceo.png",
+      image: "/Me4.png",
       bio: t("ceo.description"),
       social: {
         linkedin: "#",
@@ -42,7 +42,7 @@ export function TeamSection() {
     {
       name: t("cto.name"),
       role: t("cto.role"),
-      image: "/african-female-tech-lead.png",
+      image: "/Me.png",
       bio: t("cto.description"),
       social: {
         linkedin: "#",
@@ -53,7 +53,7 @@ export function TeamSection() {
     {
       name: t("developer.name"),
       role: t("developer.role"),
-      image: "/african-cybersecurity-expert.png",
+      image: "/jigo.jpg",
       bio: t("developer.description"),
       social: {
         linkedin: "#",
@@ -64,7 +64,7 @@ export function TeamSection() {
     {
       name: t("security.name"),
       role: t("security.role"),
-      image: "/african-network-engineer.png",
+      image: "/Me3.jpg",
       bio: t("security.description"),
       social: {
         linkedin: "#",

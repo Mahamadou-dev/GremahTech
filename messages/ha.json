@@ -1,95 +1,296 @@
 {
   "navigation": {
-    "home": "Gida",
-    "about": "Game da mu",
-    "services": "Ayyuka",
-    "team": "Ƙungiya",
-    "contact": "Tuntuɓa"
+    "home": "Shafin Gida",
+    "about": "Game da Mu",
+    "services": "Ayyukanmu",
+    "team": "Ƙungiyarmu",
+    "contact": "Tuntube Mu"
   },
   "hero": {
-    "title": "Sabbin Hanyoyin IT",
-    "subtitle": "a Zinder",
-    "description": "Kamfanin IT na gaba wanda ke ba da sabbin hanyoyin gina yanar gizo, tsaro, da hanyoyin sadarwa don canza kasancewar ku na dijital.",
-    "cta": "Fara",
-    "learnMore": "Koyi Ƙara"
+    "tagline": "Ƙirƙira a Fasahar Zamani",
+    "title": "Magani Na IT Na Ƙirƙira",
+    "subtitle": "A Birnin Zinder",
+    "description": "GremahTech kamfani ne na farko a Nijar wanda muke ba da sabbin magunguna na gina yanar gizo, kare bayanai, da hanyoyin sadarwa don inganta kasuwancin ku ta hanyar dijital.",
+    "cta": "Fara Anan",
+    "watchDemo": "Dubi Misali",
+    "scrollHint": "Latsa Don Bincika"
   },
   "about": {
     "title": "Game da GremahTech",
-    "subtitle": "Sabuntawa ta Haɗu da Kyau",
-    "description": "An kafa shi a Zinder, GremahTech kamfani ne na IT mai ƙarfi wanda ya sadaukar da kansa don ba da hanyoyin fasaha na duniya. Muna haɗa ƙwarewar gida da ƙa'idodin duniya don taimaka wa kasuwanci su ci gaba a zamanin dijital.",
+    "subtitle": "Ƙirƙira da Ingantacciyar Aiki",
+    "description": "An kafa mu a Zinder, GremahTech ƙwararren kamfani ne na IT wanda ke ba da ingantattun magungunan fasaha. Muna haɗa ƙwarewar gida da ƙa'idodin duniya don taimaka wa 'yan kasuwa su bunƙasa a zamanin dijital.",
     "mission": "Manufarmu",
-    "missionText": "Don ƙarfafa kasuwanci a Niger da kuma sauran wurare da sabbin hanyoyin IT waɗanda ke haifar da ci gaba da canjin dijital.",
-    "vision": "Hangen Nesanmu",
-    "visionText": "Don zama babban mai ba da hanyoyin IT a Yammacin Afirka, wanda aka sani da kyau, sabuntawa, da gamsuwar abokin ciniki."
+    "missionText": "Ƙarfafa 'yan kasuwa a Nijar da sauran ƙasashe tare da magungunan IT na ƙirƙira waɗanda ke haifar da ci gaba da sauya kasuwancin su ta dijital.",
+    "vision": "Hangarin Niyarmu",
+    "visionText": "Mu zama babban mai bayar da magungunan IT a Yammacin Afirka, wanda aka sani da inganci, ƙirƙira, da gamsar da abokan ciniki.",
+    "values": "Dabi'ummum",
+    "valuesText": "Ƙirƙira, aminci, inganci, da sanya abokin ciniki a tsaki, su ne abin da muke bi yayin da muke gina makomar fasaha a Nijar.",
+    "stat1": "17+| Ayyukan da aka Kammala",
+    "stat2": "99%| Gamsuwar Abokan Ciniki",
+    "stat3": "2 +| Shekaru masu Inganci"
   },
   "services": {
     "title": "Ayyukanmu",
-    "subtitle": "Cikakkun Hanyoyin IT",
+    "subtitle": "Cikakkun magungunan IT don tura kasuwancin ku zuwa gaba",
+    "learnMore": "Ƙarin Karatu",
+    "subServicesTitle": "Abubuwan da Muke Bayarwa",
+    "technologiesTitle": "Fasahohin da Muke Amfani da su",
+    "imagePlaceholder": "Hoton Misali",
+    "logoPlaceholder": "Alamar Kamfani",
+    "requestQuote": "Nemi Farashi",
+    "backToServices": "Komawa Ayyuka",
+    "cta": {
+      "title": "Shirye kake don sauya kasuwancin ku?",
+      "description": "Bari mu tattauna yadda ayyukanmu zasu iya taimaka muku cimma burin fasahar ku.",
+      "button": "Samun Shawarwari Kyauta"
+    },
     "webDev": {
       "title": "Gina Yanar Gizo",
-      "description": "Gidajen yanar gizo na musamman da aikace-aikacen yanar gizo da aka gina da sabbin fasahohi da ƙirar da ta dace."
+      "description": "Keɓaɓɓun gidajen yanar gizo da aikace-aikacen yanar gizo da aka gina tare da fasahohin zamani da ƙirar amsawa.",
+      "subServices": {
+        "frontend": {
+          "title": "Gina Fuskar Shafi (Frontend)",
+          "features": [
+            "Zane mai amsawa",
+            "Ingantaccen SEO",
+            "Kula da shi na watanni 3 kyauta"
+          ],
+          "price": "FCFA 250,000"
+        },
+        "backend": {
+          "title": "Gina Bayan Gida (Backend)",
+          "features": [
+            "Tsaro API",
+            "Ingantaccen bayanai",
+            "Haɗa hosting"
+          ],
+          "price": "FCFA 350,000"
+        },
+        "fullstack": {
+          "title": "Cikakken Gina Yanar Gizo (Fullstack)",
+          "features": [
+            "Cikakkiyar magani",
+            "Tallafin fasaha",
+            "Horar da masu amfani"
+          ],
+          "price": "FCFA 500,000"
+        }
+      }
     },
-    "itSupport": {
-      "title": "Tallafin IT",
-      "description": "Taimako na fasaha 24/7 da kulawa don kiyaye tsarin ku yana aiki lafiya."
+    "mobileDev": {
+      "title": "Gina Aikace-aikacen Wayar Hannu",
+      "description": "Aikace-aikacen wayar hannu na iOS da Android, an inganta su don aiki da ƙwarewar mai amfani.",
+      "subServices": {
+        "ios": {
+          "title": "Gina Aikace-aikacen iOS",
+          "features": [
+            "Zane na asali",
+            "Ingantaccen App Store",
+            "Haɗa kulawa"
+          ],
+          "price": "FCFA 450,000"
+        },
+        "android": {
+          "title": "Gina Aikace-aikacen Android",
+          "features": [
+            "Ya dace da na'urori da yawa",
+            "Ingantaccen UI/UX",
+            "Sabuntawa akai-akai"
+          ],
+          "price": "FCFA 400,000"
+        },
+        "crossPlatform": {
+          "title": "Gina Aikace-aikacen Dandamali Daban-daban",
+          "features": [
+            "Magani mai tsada",
+            "Ɗaukar aiki da yawa",
+            "Tallafin fasaha"
+          ],
+          "price": "FCFA 350,000"
+        }
+      }
     },
     "networking": {
-      "title": "Hanyoyin Sadarwa",
-      "description": "Saitin hanyar sadarwa ta ƙwararru, daidaitawa, da ingantawa ga kasuwanci na kowane girma."
+      "title": "Sadarwa & Kayayyakin More Rayuwa",
+      "description": "Kafa, daidaitawa, da inganta hanyoyin sadarwa na ƙwararru ga 'yan kasuwa kowane girma.",
+      "subServices": {
+        "enterprise": {
+          "title": "Cibiyar Sadarwar Kamfani",
+          "features": [
+            "Cikakken shigarwa",
+            "Tsaro daidaitacce",
+            "Kulawa na riga-kafi"
+          ],
+          "price": "FCFA 300,000"
+        },
+        "cloud": {
+          "title": "Kayayyakin More Rayuwa na Girgije (Cloud)",
+          "features": [
+            "Ƙaura zuwa Girgije",
+            "Ajiye bayanai ta atomatik",
+            "Kulawa 24/7"
+          ],
+          "price": "FCFA 450,000"
+        },
+        "wireless": {
+          "title": "Cibiyar Sadarwa mara Waya",
+          "features": [
+            "Ingantaccen ɗaukar hoto",
+            "Tsaro na ci gaba",
+            "Gudanarwa ta tsakiya"
+          ],
+          "price": "FCFA 250,000"
+        }
+      }
     },
     "cybersecurity": {
-      "title": "Tsaron Yanar Gizo",
-      "description": "Cikakkun hanyoyin tsaro don kare kadarorin ku na dijital da bayanan sirri."
+      "title": "Kare Bayanai Ta Yanar Gizo",
+      "description": "Cikakkun magunguna don kare kadarorin ku na dijital da bayanai masu mahimmanci daga barazanar yanar gizo.",
+      "subServices": {
+        "audit": {
+          "title": "Binciken Tsaro",
+          "features": [
+            "Cikakken bincike",
+            "Rahoto mai cikakken bayani",
+            "Shawarwari"
+          ],
+          "price": "FCFA 200,000"
+        },
+        "dataProtection": {
+          "title": "Kariyar Bayanai",
+          "features": [
+            "ɓoyewa mai zurfi",
+            "Ajiye bayanai mai tsaro",
+            "Biyan ka'idodin GDPR"
+          ],
+          "price": "FCFA 350,000"
+        },
+        "monitoring": {
+          "title": "Kulawa 24/7",
+          "features": [
+            "Gano kutsawa",
+            "Faɗakarwa nan take",
+            "Amsa cikin gaggawa"
+          ],
+          "price": "FCFA 500,000 / wata"
+        }
+      }
+    },
+    "graphicDesign": {
+      "title": "Zane",
+      "description": "Ƙirƙirar alamun gani masu tasiri da ƙira mai sauƙin fahimta da kyau.",
+      "subServices": {
+        "identity": {
+          "title": "Alamar Gani",
+          "features": [
+            "Zane na tambari",
+            "Ƙa'idodin alama",
+            "Kayan sadarwa"
+          ],
+          "price": "FCFA 150,000"
+        },
+        "uiux": {
+          "title": "Zane na UI/UX",
+          "features": [
+            "Zane na fuska",
+            "Ƙwarewar mai amfani",
+            "Samfura masu ma'ana"
+          ],
+          "price": "FCFA 250,000"
+        },
+        "marketing": {
+          "title": "Tallan Dijital",
+          "features": [
+            "Shafukan sada zumunta",
+            "Banners na talla",
+            "Yaƙin neman zaɓe na gani"
+          ],
+          "price": "FCFA 200,000"
+        }
+      }
+    },
+    "videoEditing": {
+      "title": "Gyara Bidiyo",
+      "description": "Ƙirƙirar bidiyo na ƙwararru da gyara bidiyo don yaƙin neman zaɓe da sadarwar ku.",
+      "subServices": {
+        "editing": {
+          "title": "Gyara Bidiyo",
+          "features": [
+            "Yanke na ƙwararru",
+            "Tasiri na musamman",
+            "Sanya taken"
+          ],
+          "price": "FCFA 120,000"
+        },
+        "animation": {
+          "title": "Bidiyo mai rai & motsi",
+          "features": [
+            "Zane mai rai",
+            "Gabatarwa/Ƙarshe",
+            "Bayanin bidiyo mai rai"
+          ],
+          "price": "FCFA 200,000"
+        },
+        "production": {
+          "title": "Cikakken Samarwa",
+          "features": [
+            "Rubuta rubutun",
+            "Yin fim",
+            "Gyara bayan fim"
+          ],
+          "price": "FCFA 500,000"
+        }
+      }
     }
   },
   "team": {
     "title": "Ƙungiyarmu",
-    "subtitle": "Ku Haɗu da Ƙwararru",
+    "subtitle": "Haɗu da Ƙwararrunmu",
     "ceo": {
       "name": "Mahamadou Amadou Habou Gremah",
-      "role": "Shugaba kuma Wanda Ya Kafa",
-      "description": "Jagora mai hangen nesa tare da ƙwarewa a dabarun IT da ci gaban kasuwanci."
+      "role": "Shugaba & Wanda Ya Kafa",
+      "description": "Shugaba mai hangen nesa tare da ƙwarewa a dabarun IT da haɓaka kasuwanci."
     },
     "cto": {
       "name": "Jagoran Fasaha",
       "role": "Babban Jami'in Fasaha",
-      "description": "Ƙwararren fasaha wanda ke jagorantar sabuntawa da kuma kula da duk ayyukan ci gaba."
+      "description": "Ƙwararren fasaha wanda ke haifar da ƙirƙira da kuma kula da duk ayyukan haɓakawa."
     },
     "developer": {
-      "name": "Babban Mai Gina",
-      "role": "Mai Gina Full Stack",
-      "description": "Mai gina mai gogewa wanda ya ƙware a sabbin fasahohin yanar gizo da mafita."
+      "name": "Issoufou Jigo Abdouraheem",
+      "role": "Mai Gina Yanar Gizo Gabaɗaya",
+      "description": "Ƙwararren mai haɓakawa wanda ya ƙware a fasahohin yanar gizo na zamani da magunguna."
     },
     "security": {
-      "name": "Ƙwararren Tsaro",
-      "role": "Ƙwararren Tsaron Yanar Gizo",
-      "description": "Ya sadaukar da kansa don kare tsarin dijital da bayanan abokan cinikinmu."
+      "name": "Mahamadou Amadou Habou Gremah",
+      "role": "Ƙwararren Kare Bayanai",
+      "description": "An keɓe don kare kayayyakin dijital na abokan cinikinmu da bayanai."
     }
   },
   "contact": {
-    "title": "Tuntuɓe Mu",
-    "subtitle": "Mu Gina Wani Abu Mai Ban Mamaki Tare",
-    "name": "Suna",
+    "title": "Tuntube Mu",
+    "subtitle": "Bari Mu Gina Wani Abu Mai Ban Al'ajabi Tare",
+    "name": "Sunanka",
     "email": "Imel",
     "message": "Saƙo",
     "send": "Aika Saƙo",
     "info": {
-      "address": "Zinder, Niger",
+      "address": "Zinder, Nijar",
       "phone": "+227 XX XX XX XX",
       "email": "contact@gremahtech.com"
     }
   },
   "footer": {
-    "description": "Kamfanin IT na gaba a Zinder wanda ke ba da sabbin hanyoyin fasaha.",
-    "quickLinks": "Hanyoyin Sauri",
+    "description": "GremahTech kamfani ne na farko a Zinder wanda ke ba da magungunan fasaha na ƙirƙira.",
+    "quickLinks": "Hanyoyin Da Sauri",
     "services": "Ayyuka",
-    "contact": "Bayanan Tuntuɓa",
-    "rights": "Duk haƙƙoƙi an kebe su."
+    "contact": "Bayanin Tuntuɓar Mu",
+    "rights": "Duk haƙƙoƙin suna tare da mu."
   },
   "language": {
-    "switch": "Canja Harshe",
-    "english": "English",
-    "french": "Français",
+    "switch": "Canza Harshe",
+    "english": "Turanci",
+    "french": "Faransanci",
     "hausa": "Hausa"
   }
 }

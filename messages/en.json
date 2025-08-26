@@ -6,13 +6,18 @@
     "team": "Team",
     "contact": "Contact"
   },
+
   "hero": {
+    "tagline": "Innovation in Technology",
     "title": "Innovative IT Solutions",
     "subtitle": "in Zinder",
     "description": "Leading IT startup providing cutting-edge web development, cybersecurity, and networking solutions to transform your digital presence.",
     "cta": "Get Started",
-    "learnMore": "Learn More"
+    "watchDemo": "Watch Demo",
+    "scrollHint": "Scroll to explore"
+
   },
+
   "about": {
     "title": "About GremahTech",
     "subtitle": "Innovation Meets Excellence",
@@ -20,28 +25,228 @@
     "mission": "Our Mission",
     "missionText": "To empower businesses in Niger and beyond with innovative IT solutions that drive growth and digital transformation.",
     "vision": "Our Vision",
-    "visionText": "To become the leading IT solutions provider in West Africa, known for excellence, innovation, and customer satisfaction."
+    "visionText": "To become the leading IT solutions provider in West Africa, known for excellence, innovation, and customer satisfaction.",
+    "values": "Our Values",
+    "valuesText": "Innovation, integrity, excellence, and customer-centricity guide everything we do as we build the future of technology in Niger.",
+    "stat1": "17+|Projects Completed",
+    "stat2": "99%|Client Satisfaction",
+    "stat3": "2 +|Years of Excellence"
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Comprehensive IT Solutions",
+    "subtitle": "Comprehensive IT solutions to drive your business into the future",
+    "learnMore": "Learn More",
+    "subServicesTitle": "Our Offers",
+    "technologiesTitle": "Technologies Used",
+    "imagePlaceholder": "Illustrative Image",
+    "logoPlaceholder": "Logo",
+    "requestQuote": "Request a Quote",
+    "backToServices": "Back to Services",
+    "cta": {
+      "title": "Ready to transform your business?",
+      "description": "Let’s discuss how our services can help you achieve your technology goals.",
+      "button": "Get a Free Consultation"
+    },
     "webDev": {
       "title": "Web Development",
-      "description": "Custom websites and web applications built with modern technologies and responsive design."
+      "description": "Custom websites and web applications built with modern technologies and responsive design.",
+      "subServices": {
+        "frontend": {
+          "title": "Frontend Development",
+          "features": [
+            "Responsive design",
+            "SEO optimization",
+            "3 months free maintenance"
+          ],
+          "price": "250,000 FCFA"
+        },
+        "backend": {
+          "title": "Backend Development",
+          "features": [
+            "Secure API",
+            "Optimized database",
+            "Hosting included"
+          ],
+          "price": "350,000 FCFA"
+        },
+        "fullstack": {
+          "title": "Fullstack Development",
+          "features": [
+            "Complete solution",
+            "Technical support",
+            "User training"
+          ],
+          "price": "500,000 FCFA"
+        }
+      }
     },
-    "itSupport": {
-      "title": "IT Support",
-      "description": "24/7 technical assistance and maintenance to keep your systems running smoothly."
+    "mobileDev": {
+      "title": "Mobile Development",
+      "description": "Native and cross-platform apps for iOS and Android, optimized for performance and user experience.",
+      "subServices": {
+        "ios": {
+          "title": "iOS Development",
+          "features": [
+            "Native design",
+            "App Store optimization",
+            "Maintenance included"
+          ],
+          "price": "450,000 FCFA"
+        },
+        "android": {
+          "title": "Android Development",
+          "features": [
+            "Multi-device compatibility",
+            "Optimized UI/UX",
+            "Regular updates"
+          ],
+          "price": "400,000 FCFA"
+        },
+        "crossPlatform": {
+          "title": "Cross-Platform Development",
+          "features": [
+            "Cost-effective solution",
+            "Multiple deployment",
+            "Technical support"
+          ],
+          "price": "350,000 FCFA"
+        }
+      }
     },
     "networking": {
-      "title": "Networking",
-      "description": "Professional network setup, configuration, and optimization for businesses of all sizes."
+      "title": "Networking & Infrastructure",
+      "description": "Setup, configuration, and optimization of professional networks for businesses of all sizes.",
+      "subServices": {
+        "enterprise": {
+          "title": "Enterprise Network",
+          "features": [
+            "Complete installation",
+            "Secure configuration",
+            "Preventive maintenance"
+          ],
+          "price": "300,000 FCFA"
+        },
+        "cloud": {
+          "title": "Cloud Infrastructure",
+          "features": [
+            "Cloud migration",
+            "Automatic backup",
+            "24/7 monitoring"
+          ],
+          "price": "450,000 FCFA"
+        },
+        "wireless": {
+          "title": "Wireless Network",
+          "features": [
+            "Optimal coverage",
+            "Advanced security",
+            "Centralized management"
+          ],
+          "price": "250,000 FCFA"
+        }
+      }
     },
     "cybersecurity": {
       "title": "Cybersecurity",
-      "description": "Comprehensive security solutions to protect your digital assets and sensitive data."
+      "description": "Comprehensive solutions to protect your digital assets and sensitive data against cyber threats.",
+      "subServices": {
+        "audit": {
+          "title": "Security Audit",
+          "features": [
+            "Full analysis",
+            "Detailed report",
+            "Recommendations"
+          ],
+          "price": "200,000 FCFA"
+        },
+        "dataProtection": {
+          "title": "Data Protection",
+          "features": [
+            "Advanced encryption",
+            "Secure backup",
+            "GDPR compliance"
+          ],
+          "price": "350,000 FCFA"
+        },
+        "monitoring": {
+          "title": "24/7 Monitoring",
+          "features": [
+            "Intrusion detection",
+            "Real-time alerts",
+            "Rapid response"
+          ],
+          "price": "500,000 FCFA/month"
+        }
+      }
+    },
+    "graphicDesign": {
+      "title": "Graphic Design",
+      "description": "Creating impactful visual identities and intuitive, aesthetic user interface designs.",
+      "subServices": {
+        "identity": {
+          "title": "Visual Identity",
+          "features": [
+            "Logo design",
+            "Brand guidelines",
+            "Communication materials"
+          ],
+          "price": "150,000 FCFA"
+        },
+        "uiux": {
+          "title": "UI/UX Design",
+          "features": [
+            "Interface design",
+            "User experience",
+            "Interactive prototypes"
+          ],
+          "price": "250,000 FCFA"
+        },
+        "marketing": {
+          "title": "Digital Marketing",
+          "features": [
+            "Social media",
+            "Advertising banners",
+            "Visual campaigns"
+          ],
+          "price": "200,000 FCFA"
+        }
+      }
+    },
+    "videoEditing": {
+      "title": "Video Editing",
+      "description": "Professional video production and post-production for your marketing campaigns and communications.",
+      "subServices": {
+        "editing": {
+          "title": "Video Editing",
+          "features": [
+            "Professional cutting",
+            "Special effects",
+            "Subtitling"
+          ],
+          "price": "120,000 FCFA"
+        },
+        "animation": {
+          "title": "Animation & Motion",
+          "features": [
+            "Animated graphics",
+            "Intro/outro",
+            "Animated explainers"
+          ],
+          "price": "200,000 FCFA"
+        },
+        "production": {
+          "title": "Full Production",
+          "features": [
+            "Scriptwriting",
+            "Filming",
+            "Post-production"
+          ],
+          "price": "500,000 FCFA"
+        }
+      }
     }
-  },
+  }
+,
   "team": {
     "title": "Our Team",
     "subtitle": "Meet the Experts",
@@ -56,12 +261,12 @@
       "description": "Technical expert driving innovation and overseeing all development projects."
     },
     "developer": {
-      "name": "Senior Developer",
+      "name": "Issoufou Jigo Abdouraheem",
       "role": "Full Stack Developer",
       "description": "Experienced developer specializing in modern web technologies and solutions."
     },
     "security": {
-      "name": "Security Specialist",
+      "name": "Mahamadou Amadou Habou Gremah",
       "role": "Cybersecurity Expert",
       "description": "Dedicated to protecting our clients' digital infrastructure and data."
     }

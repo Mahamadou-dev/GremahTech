@@ -4,9 +4,8 @@ import { Inter, Space_Grotesk } from "next/font/google"
 import "../globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { NextIntlClientProvider } from "next-intl"
-import { getMessages } from "next-intl/server"
 import { notFound } from "next/navigation"
-import { locales } from "@/i18n"
+import { locales } from "@/i18n/request"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,17 +23,6 @@ export const metadata: Metadata = {
   title: "GremahTech - IT Solutions & Innovation in Zinder",
   description:
     "Leading IT startup in Zinder providing web development, IT assistance, networking, and cybersecurity solutions.",
-  keywords: "IT solutions, web development, cybersecurity, networking, Zinder, Niger, technology",
-  authors: [{ name: "GremahTech" }],
-  creator: "GremahTech",
-  publisher: "GremahTech",
-  openGraph: {
-    title: "GremahTech - IT Solutions & Innovation",
-    description: "Leading IT startup in Zinder providing comprehensive technology solutions.",
-    type: "website",
-    locale: "en_US",
-  },
-  generator: "v0.app",
 }
 
 export default async function LocaleLayout({
@@ -44,27 +32,26 @@ export default async function LocaleLayout({
   children: React.ReactNode
   params: { locale: string }
 }>) {
-  // Validate that the incoming `locale` parameter is valid
   if (!locales.includes(locale as any)) {
     notFound()
   }
 
-  // Providing all messages to the client side is the easiest way to get started
-  const messages = await getMessages()
+  // ⬇️ Charge les bons messages selon la locale
+  const messages = (await import(`../../messages/${locale}.json`)).default
 
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
         <style>{`
-html {
-  font-family: ${inter.style.fontFamily};
-  --font-sans: ${inter.variable};
-  --font-display: ${spaceGrotesk.variable};
-}
+          html {
+            font-family: ${inter.style.fontFamily};
+            --font-sans: ${inter.variable};
+            --font-display: ${spaceGrotesk.variable};
+          }
         `}</style>
       </head>
       <body className={`${inter.variable} ${spaceGrotesk.variable} antialiased`}>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange={false}>
             {children}
           </ThemeProvider>

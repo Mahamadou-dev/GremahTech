@@ -1,30 +1,49 @@
-# Image Analysis
+Gremahtech
+Solutions informatiques innovantes à Zinder, Niger.
+À propos du projet
+Ce dépôt contient le code source de Gremahtech, une startup IT dynamique spécialisée dans le développement de solutions technologiques de pointe. Notre mission est de transformer la présence numérique des entreprises en combinant expertise locale et standards internationaux.
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Nos services
+Développement Web
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/mahamadou-devs-projects/v0-image-analysis)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/6yQnP71pau1)
+Développement Mobile
 
-## Overview
+Réseautage & Infrastructure
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+Cybersécurité
 
-## Deployment
+Design Graphique
 
-Your project is live at:
+Montage Vidéo
 
-**[https://vercel.com/mahamadou-devs-projects/v0-image-analysis](https://vercel.com/mahamadou-devs-projects/v0-image-analysis)**
+Contact
+Pour toute collaboration ou question, n'hésitez pas à nous contacter :
 
-## Build your app
+Email : gremahtech@gmail.com
 
-Continue building your app on:
+Gremahtech : L'avenir de la technologie au Niger est entre nos mains.
 
-**[https://v0.app/chat/projects/6yQnP71pau1](https://v0.app/chat/projects/6yQnP71pau1)**
+Gremahtech
+Innovative IT Solutions in Zinder, Niger.
+About the Project
+This repository contains the source code for Gremahtech, a dynamic IT startup specializing in the development of cutting-edge technology solutions. Our mission is to transform the digital presence of businesses by combining local expertise with international standards.
 
-## How It Works
+Our Services
+Web Development
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Mobile Development
+
+Networking & Infrastructure
+
+Cybersecurity
+
+Graphic Design
+
+Video Editing
+
+Contact
+For any collaboration or inquiries, feel free to contact us:
+
+Email : gremahtech@gmail.com
+
+Gremahtech : The future of technology in Niger is in our hands.

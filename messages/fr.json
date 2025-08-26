@@ -6,90 +6,299 @@
     "team": "Équipe",
     "contact": "Contact"
   },
+
   "hero": {
-    "title": "Solutions IT Innovantes",
+    "tagline": "Innovation technologique",
+    "title": "Solutions informatiques innovantes",
     "subtitle": "à Zinder",
-    "description": "Startup IT leader fournissant des solutions de développement web, cybersécurité et réseaux de pointe pour transformer votre présence numérique.",
+    "description": "Startup IT leader, fournissant des solutions de pointe en développement web, cybersécurité et réseaux pour transformer votre présence digitale.",
     "cta": "Commencer",
-    "learnMore": "En savoir plus"
+    "watchDemo": "Regarder la démo",
+    "scrollHint": "Faites défiler pour explorer"
+
   },
+
   "about": {
     "title": "À propos de GremahTech",
-    "subtitle": "L'Innovation Rencontre l'Excellence",
-    "description": "Fondée à Zinder, GremahTech est une startup IT dynamique dédiée à fournir des solutions technologiques de classe mondiale. Nous combinons l'expertise locale avec les standards globaux pour aider les entreprises à prospérer à l'ère numérique.",
+    "subtitle": "Innovation et Excellence",
+    "description": "Fondée à Zinder, GremahTech est une startup IT dynamique dédiée à offrir des solutions technologiques de classe mondiale. Nous combinons expertise locale et standards internationaux pour aider les entreprises à prospérer à l’ère numérique.",
     "mission": "Notre Mission",
-    "missionText": "Autonomiser les entreprises au Niger et au-delà avec des solutions IT innovantes qui stimulent la croissance et la transformation numérique.",
+    "missionText": "Accompagner les entreprises au Niger et au-delà grâce à des solutions informatiques innovantes qui stimulent la croissance et la transformation digitale.",
     "vision": "Notre Vision",
-    "visionText": "Devenir le fournisseur de solutions IT leader en Afrique de l'Ouest, reconnu pour l'excellence, l'innovation et la satisfaction client."
+    "visionText": "Devenir le principal fournisseur de solutions IT en Afrique de l’Ouest, reconnu pour l’excellence, l’innovation et la satisfaction client.",
+    "values": "Nos Valeurs",
+    "valuesText": "L’innovation, l’intégrité, l’excellence et l’orientation client guident tout ce que nous faisons pour construire l’avenir de la technologie au Niger.",
+    "stat1": "17+|Projets Réalisés",
+    "stat2": "99%|Satisfaction Client",
+    "stat3": "2 +|Années d’Excellence"
   },
   "services": {
     "title": "Nos Services",
-    "subtitle": "Solutions IT Complètes",
+    "subtitle": "Solutions informatiques complètes pour propulser votre entreprise vers l'avenir",
+    "learnMore": "En savoir plus",
+    "subServicesTitle": "Nos offres",
+    "technologiesTitle": "Technologies utilisées",
+    "imagePlaceholder": "Image illustrative",
+    "logoPlaceholder": "Logo",
+    "requestQuote": "Demander un devis",
+    "backToServices": "Retour aux services",
+    "cta": {
+      "title": "Prêt à transformer votre entreprise?",
+      "description": "Discutons de la manière dont nos services peuvent vous aider à atteindre vos objectifs technologiques.",
+      "button": "Obtenir une consultation gratuite"
+    },
     "webDev": {
       "title": "Développement Web",
-      "description": "Sites web personnalisés et applications web construits avec des technologies modernes et un design responsive."
+      "description": "Sites web et applications web sur mesure, développés avec des technologies modernes et un design responsive.",
+      "subServices": {
+        "frontend": {
+          "title": "Développement Frontend",
+          "features": [
+            "Design responsive",
+            "Optimisation SEO",
+            "Maintenance gratuite 3 mois"
+          ],
+          "price": "250,000 FCFA"
+        },
+        "backend": {
+          "title": "Développement Backend",
+          "features": [
+            "API sécurisée",
+            "Base de données optimisée",
+            "Hébergement inclus"
+          ],
+          "price": "350,000 FCFA"
+        },
+        "fullstack": {
+          "title": "Développement Fullstack",
+          "features": [
+            "Solution complète",
+            "Support technique",
+            "Formation utilisateur"
+          ],
+          "price": "500,000 FCFA"
+        }
+      }
     },
-    "itSupport": {
-      "title": "Support IT",
-      "description": "Assistance technique 24/7 et maintenance pour maintenir vos systèmes en fonctionnement optimal."
+    "mobileDev": {
+      "title": "Développement Mobile",
+      "description": "Applications natives et cross-platform pour iOS et Android, optimisées pour performances et expérience utilisateur.",
+      "subServices": {
+        "ios": {
+          "title": "Développement iOS",
+          "features": [
+            "Design natif",
+            "App Store optimization",
+            "Maintenance incluse"
+          ],
+          "price": "450,000 FCFA"
+        },
+        "android": {
+          "title": "Développement Android",
+          "features": [
+            "Compatibilité multi-appareils",
+            "UI/UX optimisée",
+            "Mises à jour"
+          ],
+          "price": "400,000 FCFA"
+        },
+        "crossPlatform": {
+          "title": "Développement Cross-Platform",
+          "features": [
+            "Solution économique",
+            "Déploiement multiple",
+            "Support technique"
+          ],
+          "price": "350,000 FCFA"
+        }
+      }
     },
     "networking": {
-      "title": "Réseaux",
-      "description": "Configuration, installation et optimisation de réseaux professionnels pour entreprises de toutes tailles."
+      "title": "Réseautage & Infrastructure",
+      "description": "Mise en place, configuration et optimisation de réseaux professionnels pour toutes tailles d'entreprises.",
+      "subServices": {
+        "enterprise": {
+          "title": "Réseau d'Entreprise",
+          "features": [
+            "Installation complète",
+            "Configuration sécurisée",
+            "Maintenance préventive"
+          ],
+          "price": "300,000 FCFA"
+        },
+        "cloud": {
+          "title": "Infrastructure Cloud",
+          "features": [
+            "Migration cloud",
+            "Sauvegarde automatique",
+            "Surveillance 24/7"
+          ],
+          "price": "450,000 FCFA"
+        },
+        "wireless": {
+          "title": "Réseau Sans Fil",
+          "features": [
+            "Couverture optimale",
+            "Sécurité avancée",
+            "Gestion centralisée"
+          ],
+          "price": "250,000 FCFA"
+        }
+      }
     },
     "cybersecurity": {
       "title": "Cybersécurité",
-      "description": "Solutions de sécurité complètes pour protéger vos actifs numériques et données sensibles."
+      "description": "Solutions complètes pour protéger vos actifs numériques et vos données sensibles contre les cybermenaces.",
+      "subServices": {
+        "audit": {
+          "title": "Audit de Sécurité",
+          "features": [
+            "Analyse complète",
+            "Rapport détaillé",
+            "Recommandations"
+          ],
+          "price": "200,000 FCFA"
+        },
+        "dataProtection": {
+          "title": "Protection des Données",
+          "features": [
+            "Chiffrement avancé",
+            "Sauvegarde sécurisée",
+            "Conformité RGPD"
+          ],
+          "price": "350,000 FCFA"
+        },
+        "monitoring": {
+          "title": "Surveillance 24/7",
+          "features": [
+            "Détection d'intrusions",
+            "Alertes en temps réel",
+            "Intervention rapide"
+          ],
+          "price": "500,000 FCFA/mois"
+        }
+      }
+    },
+    "graphicDesign": {
+      "title": "Design Graphique",
+      "description": "Création d'identités visuelle percutantes et designs d'interfaces utilisateur intuitives et esthétiques.",
+      "subServices": {
+        "identity": {
+          "title": "Identité Visuelle",
+          "features": [
+            "Logo design",
+            "Charte graphique",
+            "Support de communication"
+          ],
+          "price": "150,000 FCFA"
+        },
+        "uiux": {
+          "title": "UI/UX Design",
+          "features": [
+            "Design d'interface",
+            "Expérience utilisateur",
+            "Prototypes interactifs"
+          ],
+          "price": "250,000 FCFA"
+        },
+        "marketing": {
+          "title": "Marketing Digital",
+          "features": [
+            "Réseaux sociaux",
+            "Bannières publicitaires",
+            "Campagnes visuelles"
+          ],
+          "price": "200,000 FCFA"
+        }
+      }
+    },
+    "videoEditing": {
+      "title": "Montage Vidéo",
+      "description": "Production et post-production vidéo professionnelle pour vos campagnes marketing et communications.",
+      "subServices": {
+        "editing": {
+          "title": "Montage Vidéo",
+          "features": [
+            "Coupe professionnelle",
+            "Effets spéciaux",
+            "Sous-titrage"
+          ],
+          "price": "120,000 FCFA"
+        },
+        "animation": {
+          "title": "Animation & Motion",
+          "features": [
+            "Graphiques animés",
+            "Intro/outro",
+            "Explications animées"
+          ],
+          "price": "200,000 FCFA"
+        },
+        "production": {
+          "title": "Production Complète",
+          "features": [
+            "Scénarisation",
+            "Tournage",
+            "Post-production"
+          ],
+          "price": "500,000 FCFA"
+        }
+      }
     }
-  },
+  }
+,
+
   "team": {
     "title": "Notre Équipe",
     "subtitle": "Rencontrez les Experts",
     "ceo": {
       "name": "Mahamadou Amadou Habou Gremah",
-      "role": "PDG et Fondateur",
-      "description": "Leader visionnaire avec une expertise en stratégie IT et développement commercial."
+      "role": "PDG & Fondateur",
+      "description": "Leader visionnaire, expert en stratégie IT et développement des affaires."
     },
     "cto": {
       "name": "Responsable Technique",
       "role": "Directeur Technique",
-      "description": "Expert technique dirigeant l'innovation et supervisant tous les projets de développement."
+      "description": "Expert technique chargé d’innover et de superviser tous les projets de développement."
     },
     "developer": {
-      "name": "Développeur Senior",
+      "name": "Issoufou Jigo Abdouraheem",
       "role": "Développeur Full Stack",
-      "description": "Développeur expérimenté spécialisé dans les technologies web modernes et solutions."
+      "description": "Développeur expérimenté spécialisé dans les technologies web modernes et les solutions sur mesure."
     },
     "security": {
-      "name": "Spécialiste Sécurité",
+      "name": "Mahamadou Amadou Habou Gremah",
       "role": "Expert Cybersécurité",
-      "description": "Dédié à la protection de l'infrastructure numérique et des données de nos clients."
+      "description": "Spécialiste dédié à la protection des infrastructures numériques et des données de nos clients."
     }
   },
+
   "contact": {
     "title": "Contactez-nous",
-    "subtitle": "Construisons Quelque Chose d'Extraordinaire Ensemble",
+    "subtitle": "Construisons quelque chose d’extraordinaire ensemble",
     "name": "Nom",
-    "email": "Email",
+    "email": "E-mail",
     "message": "Message",
-    "send": "Envoyer le Message",
+    "send": "Envoyer",
     "info": {
       "address": "Zinder, Niger",
       "phone": "+227 XX XX XX XX",
       "email": "contact@gremahtech.com"
     }
   },
+
   "footer": {
-    "description": "Startup IT leader à Zinder fournissant des solutions technologiques innovantes.",
-    "quickLinks": "Liens Rapides",
+    "description": "Startup IT leader à Zinder, fournissant des solutions technologiques innovantes.",
+    "quickLinks": "Liens rapides",
     "services": "Services",
-    "contact": "Informations de Contact",
+    "contact": "Infos de contact",
     "rights": "Tous droits réservés."
   },
+
   "language": {
-    "switch": "Changer de Langue",
-    "english": "English",
+    "switch": "Changer de langue",
+    "english": "Anglais",
     "french": "Français",
-    "hausa": "Hausa"
+    "hausa": "Haoussa"
   }
 }
