@@ -256,21 +256,12 @@
       "role": "PDG & Fondateur",
       "description": "Leader visionnaire, expert en stratégie IT et développement des affaires."
     },
-    "cto": {
-      "name": "Responsable Technique",
-      "role": "Directeur Technique",
-      "description": "Expert technique chargé d’innover et de superviser tous les projets de développement."
-    },
     "developer": {
       "name": "Issoufou Jigo Abdouraheem",
       "role": "Développeur Full Stack",
       "description": "Développeur expérimenté spécialisé dans les technologies web modernes et les solutions sur mesure."
-    },
-    "security": {
-      "name": "Mahamadou Amadou Habou Gremah",
-      "role": "Expert Cybersécurité",
-      "description": "Spécialiste dédié à la protection des infrastructures numériques et des données de nos clients."
     }
+
   },
 
   "contact": {

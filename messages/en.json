@@ -255,21 +255,12 @@
       "role": "CEO & Founder",
       "description": "Visionary leader with expertise in IT strategy and business development."
     },
-    "cto": {
-      "name": "Tech Lead",
-      "role": "Chief Technology Officer",
-      "description": "Technical expert driving innovation and overseeing all development projects."
-    },
     "developer": {
       "name": "Issoufou Jigo Abdouraheem",
       "role": "Full Stack Developer",
       "description": "Experienced developer specializing in modern web technologies and solutions."
-    },
-    "security": {
-      "name": "Mahamadou Amadou Habou Gremah",
-      "role": "Cybersecurity Expert",
-      "description": "Dedicated to protecting our clients' digital infrastructure and data."
     }
+
   },
   "contact": {
     "title": "Contact Us",

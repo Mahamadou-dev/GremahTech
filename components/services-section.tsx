@@ -368,8 +368,8 @@ export function ServicesSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-display mb-6">
-            {t("title")} <span className="text-gradient">GremahTech</span>
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-display mb-6 text-gradient">
+            {t("title")} 
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             {t("subtitle")}

@@ -251,21 +251,12 @@
       "role": "Shugaba & Wanda Ya Kafa",
       "description": "Shugaba mai hangen nesa tare da ƙwarewa a dabarun IT da haɓaka kasuwanci."
     },
-    "cto": {
-      "name": "Jagoran Fasaha",
-      "role": "Babban Jami'in Fasaha",
-      "description": "Ƙwararren fasaha wanda ke haifar da ƙirƙira da kuma kula da duk ayyukan haɓakawa."
-    },
     "developer": {
       "name": "Issoufou Jigo Abdouraheem",
       "role": "Mai Gina Yanar Gizo Gabaɗaya",
       "description": "Ƙwararren mai haɓakawa wanda ya ƙware a fasahohin yanar gizo na zamani da magunguna."
-    },
-    "security": {
-      "name": "Mahamadou Amadou Habou Gremah",
-      "role": "Ƙwararren Kare Bayanai",
-      "description": "An keɓe don kare kayayyakin dijital na abokan cinikinmu da bayanai."
     }
+
   },
   "contact": {
     "title": "Tuntube Mu",

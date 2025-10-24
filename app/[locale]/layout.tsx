@@ -49,6 +49,7 @@ export default async function LocaleLayout({
             --font-display: ${spaceGrotesk.variable};
           }
         `}</style>
+        <link rel="icon" href="logo2.png" />
       </head>
       <body className={`${inter.variable} ${spaceGrotesk.variable} antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
